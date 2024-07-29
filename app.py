@@ -16,6 +16,16 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
+st.markdown("""
+    <style>
+    .eyeqlp53 {
+        display: none !important; 
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+
+
 # Menú en la barra lateral
 a = st.sidebar.radio('Menú:', ["Inicio", "Sobre Nosotros", "Data Analytics", "Contáctanos"])
 
