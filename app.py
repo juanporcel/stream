@@ -8,11 +8,9 @@ import contactanos
 
 
 
-
-# CSS para esconder el ícono de GitHub
 st.markdown("""
     <style>
-    .css-qzxtbv { 
+    [data-testid="stDecoration"] { 
         display: none !important; 
     }
     </style>
