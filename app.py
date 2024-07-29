@@ -4,9 +4,18 @@ import sobre_nosotros
 import data_analytics
 import contactanos
 
-#st.title("¡Bienvenidos!")
+# Configurar un favicon personalizado
+favicon = "https://web.dev/static/articles/building/an-adaptive-favicon/image/large-easy-distinguish-cc5a0d56fe6fc_960.png?hl=es-419"  # URL o ruta local del archivo favicon
+
+# Inyectar HTML en el encabezado de la página
+st.markdown(f"""
+    <link rel="icon" href="{favicon}" type="image/x-icon">
+    <link rel="shortcut icon" href="{favicon}" type="image/x-icon">
+    """, unsafe_allow_html=True)
 
 
+
+#Borrar boton de github y 3 puntos de opciones
 st.markdown("""
     <style>
     [data-testid="baseButton-header"] {
