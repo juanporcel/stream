@@ -6,6 +6,19 @@ import contactanos
 
 #st.title("¡Bienvenidos!")
 
+
+
+
+# CSS para esconder el ícono de GitHub
+st.markdown("""
+    <style>
+    .css-qzxtbv { 
+        display: none !important; 
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+
 # Menú en la barra lateral
 a = st.sidebar.radio('Menú:', ["Inicio", "Sobre Nosotros", "Data Analytics", "Contáctanos"])
 
