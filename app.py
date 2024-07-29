@@ -8,13 +8,13 @@ import contactanos
 
 
 
-st.markdown("""
-    <style>
-    [data-testid="stDecoration"] { 
-        display: none !important; 
-    }
-    </style>
-    """, unsafe_allow_html=True)
+# st.markdown("""
+#     <style>
+#     [data-testid="stDecoration"] { 
+#         display: none !important; 
+#     }
+#     </style>
+#     """, unsafe_allow_html=True)
 
 
 # Menú en la barra lateral
