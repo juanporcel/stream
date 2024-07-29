@@ -1,7 +1,7 @@
 import streamlit as st
 
 def mostrar_contactanos():
-    st.title("¡Contactanos!")
+    st.title("¡Contactanos!!")
     st.write("Puedes contactarnos a través de...")
 
     # Botón de WhatsApp
