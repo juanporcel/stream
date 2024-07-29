@@ -9,7 +9,7 @@ import contactanos
 
 st.markdown("""
     <style>
-    [data-testid="stActionButtonIcon"] {
+    [data-testid="baseButton-header"] {
         display: none !important; 
     }
     </style>
