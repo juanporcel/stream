@@ -9,11 +9,11 @@ def mostrar_data():
 
     # Código del iframe
     iframe_code = """
-    <iframe title="facturacion" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNDA5ODllNmEtODgyMy00MmJhLTk1OTctYTc2M2IzYTk2NjY4IiwidCI6ImRiODM5ZTQ4LWE0YzYtNDU5ZC1iOWMwLTZmNzI5M2RiOGYzYiIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe title="facturacion" width="100" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiNDA5ODllNmEtODgyMy00MmJhLTk1OTctYTc2M2IzYTk2NjY4IiwidCI6ImRiODM5ZTQ4LWE0YzYtNDU5ZC1iOWMwLTZmNzI5M2RiOGYzYiIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
     """
 
     # Mostrar el iframe en la aplicación
-    components.html(iframe_code, height=1000)
+    components.html(iframe_code, height=400)
 
     st.write("Transporte")
 
@@ -23,7 +23,7 @@ def mostrar_data():
     """
 
     # Mostrar el iframe en la aplicación
-    components.html(iframe_code, height=500)
+    components.html(iframe_code, height=400)
 
     st.write("Grilla de pacientes")
 
