@@ -5,6 +5,7 @@ def mostrar_data():
 
     # Título de la página
     st.title("Visualización de Power BI")
+    st.write("Facturación")
 
     # Código del iframe
     iframe_code = """
