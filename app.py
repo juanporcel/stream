@@ -4,14 +4,6 @@ import sobre_nosotros
 import data_analytics
 import contactanos
 
-# Configurar un favicon personalizado
-favicon = "img/a.png"  # Ruta local del archivo favicon
-
-# Inyectar HTML en el encabezado de la página
-st.markdown(f"""
-    <link rel="icon" href="{favicon}" type="image/png">
-    <link rel="shortcut icon" href="{favicon}" type="image/png">
-    """, unsafe_allow_html=True)
 
 
 #Borrar boton de github y 3 puntos de opciones
@@ -44,7 +36,7 @@ if a == "Inicio":
     inicio.mostrar_inicio()
 elif a == "Sobre Nosotros":
     sobre_nosotros.mostrar_sobre_nosotros()
-elif a == "Data Analytics":
+elif a == "Power BI":
     data_analytics.mostrar_data()
 elif a == "Contáctanos":
     contactanos.mostrar_contactanos()
