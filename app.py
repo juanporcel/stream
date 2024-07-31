@@ -27,7 +27,7 @@ st.markdown("""
 
 
 # Menú en la barra lateral
-a = st.sidebar.radio('Menú:', ["Inicio", "Sobre Nosotros", "Data Analytics", "Contáctanos"])
+a = st.sidebar.radio('Menú:', ["Inicio", "Sobre Nosotros", "Tableros Power BI", "Contáctanos"])
 
 
 
