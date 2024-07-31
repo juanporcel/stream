@@ -13,7 +13,7 @@ def mostrar_data():
     """
 
     # Mostrar el iframe en la aplicación
-    components.html(iframe_code, height=600)
+    components.html(iframe_code, height=1000)
 
     st.write("Transporte")
 
