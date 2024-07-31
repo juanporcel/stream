@@ -36,7 +36,7 @@ if a == "Inicio":
     inicio.mostrar_inicio()
 elif a == "Sobre Nosotros":
     sobre_nosotros.mostrar_sobre_nosotros()
-elif a == "Power BI":
+elif a == "Tableros Power BI":
     data_analytics.mostrar_data()
 elif a == "Contáctanos":
     contactanos.mostrar_contactanos()
