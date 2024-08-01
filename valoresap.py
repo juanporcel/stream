@@ -9,5 +9,5 @@ def mostrar_cuadro_valores():
         <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSlH7Y6NTXvhkpH9BMoY3Q2mvdijJ0_sDmmOFzNiQip0iwd4xyPd46TGZvvgufw17xelQ6iobLJ5ySK/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
     </div>
     """
-    components.html(iframe_code_valores, height=500)
+    components.html(iframe_code_valores, height=300)
     
