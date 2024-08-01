@@ -27,7 +27,7 @@ st.markdown("""
 
 
 # Menú en la barra lateral
-a = st.sidebar.radio('Menú:', ["Inicio", "Sobre Nosotros", "Tableros Power BI", "Contáctanos"])
+a = st.sidebar.radio('Menú:', ["Inicio", "Sobre Nosotros", "Tableros Power BI", "Cuadro de valores AP","Contáctanos"])
 
 
 
@@ -40,5 +40,7 @@ elif a == "Tableros Power BI":
     data_analytics.mostrar_data()
 elif a == "Contáctanos":
     contactanos.mostrar_contactanos()
+elif a == "Cuadro de valores AP":
+    valoresap.mostrar_cuadro_valores()    
 
 
